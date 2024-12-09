@@ -1,2 +1,2 @@
 # Dynamify
-A multiband Dynamics Plugin made for my Bachelor
+A multiband dynamics plugin made for my Bachelor thesis.
