@@ -3,9 +3,9 @@ A 24-band dynamics VST3 plugin was developed as my Bachelor thesis at the Budape
 
 The following dynamics processors are implemented:
 
-* Compressor
-* Upwards compressor
-* All-direction compressor (OTT)
+* Dawnwards Compressor (basic)
+* Upwards Compressor
+* All-direction Compressor (OTT)
 * Limiter
 * Expander
 * Gate
