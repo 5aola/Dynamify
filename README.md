@@ -20,7 +20,22 @@ After I implemented the dynamic processors, including a downwards and upwards co
 
 By combining the filter-bank with individual dynamics processing and and designing a graphical interface, I developed fully functioning VST software, which was sufficient for a perfect grade for my thesis.
 
+### Used external libraries
+
+- [JUCE Framework](https://docs.juce.com/master/index.html)
+- [VST3 SDK](https://steinbergmedia.github.io/vst3_doc/vstsdk/index.html)
+- [Vinnie Falco DSP Filters](https://github.com/vinniefalco/DSPFilters)
+- [FFTW](https://www.fftw.org/fftw3.pdf)
+
+
+
+
 ## Graphical Interface
 
+* All the yellow elements can be changed real-time. 
+* The grey is the input and the blue is the output spectrum.
+
 <img width="688" alt="Screenshot 2024-12-09 at 12 50 33" src="https://github.com/user-attachments/assets/15c765ba-a868-41be-ab4a-2d1f13496a7d">
+
+
 
