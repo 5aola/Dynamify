@@ -10,27 +10,15 @@ The following dynamics processors are implemented:
 * Expander
 * Gate
 
-## Abstract
+## Brief summary of my thesis
 
-In today's world, programs are increasingly expected to do everything at the touch
-of a button, and audio effects are no different. A more sophisticated implementation of
-dynamics control plugins is their multiband implementation, whose main purpose is to
-modify only the given frequency range. My thesis studies the topic of dynamics control
-plug-ins, in particular with multiband signal processing.
+My thesis focused on the implementation of real-time multiband dynamics processing effects. The aim was to enhance these effects by aligning them more closely with our perceptual hearing, providing greater flexibility through frequency-dependent processing.
 
+First, I divided the frequency spectrum into 24 separate bands, drawing inspiration from the Bark model of 24 critical bands, which I was already somewhat familiar with. This process turned out to be far more complex than I initially expected, as I needed to minimize phase cancellation issues when summing up all the separate bands. Ultimately I used Linkwitz-Riley filter designs for the filter-bank.
 
-First, the basic operation and parameterization of dynamics controllers is
-presented. Then, effect types and different implementation options are described. Next, I
-will investigate the optimal filter design for 24-band separation using MATLAB, in which
-the advantages and disadvantages of the basic filter models will be presented. I have used
-Linkwitz-Riley's filter design, which can be implemented by cascading two Butterworth
-filters with the same parameterization. The final implementation of my software is a VST
-plugin, so I will also present the development environment of the VST SDK and the
-implementation of processing in it. A sufficiently intuitive graphical interface is also
-important to me, so I created a spectrum using an FFT algorithm to help the user to analyse
-it properly. I will then test the implemented plugin and compare it to the previously laid
-out expectations. Finally, I examine the working principles and differences of some
-similar software, comparing them to the tool I implemented.
+After I implemented the dynamic processors, including a downwards and upwards compressor, a limiter, an expander, and a gate effect, with real-time adjustable parameters such as threshold, ratio, attack, and release time. Here an accurate loundess metering was crucial.
+
+By combining the filter-bank with individual dynamics processing and and designing a graphical interface, I developed fully functioning VST software, which was sufficient for a perfect grade for my thesis.
 
 ## Graphical Interface
 
