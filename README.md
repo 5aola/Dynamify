@@ -1,2 +1,2 @@
 # Dynamify
-A multiband Dynamics Plugin
+A multiband Dynamics Plugin made for my Bachelor
