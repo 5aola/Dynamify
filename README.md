@@ -1,5 +1,5 @@
 # Dynamify
-A 24-band dynamics VST3 plugin is made within my Bachelor thesis.
+A 24-band dynamics VST3 plugin was developed as part of a Bachelor thesis at the Budapest University of Technology and Economics, under the supervision of the Laboratory of Acoustics and Studio Technologies.
 
 The following dynamics processors are implemented:
 
