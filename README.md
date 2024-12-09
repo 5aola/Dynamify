@@ -1,14 +1,14 @@
 # Dynamify
 A 24-band dynamics VST3 plugin is made within my Bachelor thesis.
 
-\begin{itemize}
-    \item Compressor
-    \item Upwards compressor
-    \item All-direction compressor (OTT)
-    \item Limiter
-    \item Expander
-    \item Gate
-\end{itemize}
+The following dynamics processors are implemented:
+
+* Compressor
+* Upwards compressor
+* All-direction compressor (OTT)
+* Limiter
+* Expander
+* Gate
 
 ## Abstract
 
