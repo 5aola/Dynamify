@@ -1,5 +1,14 @@
 # Dynamify
-A multiband dynamics plugin made for my Bachelor thesis.
+A 24-band dynamics VST3 plugin is made within my Bachelor thesis.
+
+\begin{itemize}
+    \item Compressor
+    \item Upwards compressor
+    \item All-direction compressor (OTT)
+    \item Limiter
+    \item Expander
+    \item Gate
+\end{itemize}
 
 ## Abstract
 
@@ -22,3 +31,8 @@ important to me, so I created a spectrum using an FFT algorithm to help the user
 it properly. I will then test the implemented plugin and compare it to the previously laid
 out expectations. Finally, I examine the working principles and differences of some
 similar software, comparing them to the tool I implemented.
+
+## Graphical Interface
+
+<img width="688" alt="Screenshot 2024-12-09 at 12 50 33" src="https://github.com/user-attachments/assets/15c765ba-a868-41be-ab4a-2d1f13496a7d">
+
